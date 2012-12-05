@@ -16,5 +16,15 @@
  */
 
 return array(
-
+    'index_file' => false,
+    'profiling'  => true,
+    'encoding' => 'UTF-8',
+    'language' => 'ja',
+    'locale' => 'ja_JP',
+    'always_load' => array(
+        'packages' => array(
+            'auth',
+            'orm',
+        ),
+    ),
 );
